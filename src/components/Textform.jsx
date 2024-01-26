@@ -47,7 +47,7 @@ const Textform = (props) => {
     <div className="kk">
             <div className="container">
                 <br/>
-                <h1 className='flex ml-14 text-white text-3xl font-bold mt-6'>{props.heading}</h1>
+                <h1 className='flex ml-14 text-white text-3xl font-bold mt-3'>{props.heading}</h1>
                 <div className="surya mb-3">
                     <textarea className="form-control mt-4" value={text} onChange={onchange} style={{backgroundColor :'#042743',color :'white'}} id="textid" rows={5} cols={5}></textarea>
                 </div>
@@ -74,3 +74,4 @@ const Textform = (props) => {
 }
 
 export default Textform
+

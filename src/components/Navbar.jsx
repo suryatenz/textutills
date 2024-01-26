@@ -12,9 +12,9 @@ const Navbar = () => {
           <div className="flex flex-wrap gap-10 ml-6 container">
             <Link className="nav-link text-white font-light hover:font-bold" to="/home">
               HOME
-            </Link>
-            <Link className="nav-link text-white font-light hover:font-bold" to="/pa">
-              PASSWORD GENERATOR
+            </Link> 
+            <Link className="nav-link text-white font-light hover:font-bold" to="/fa">
+              FORMAT DATA
             </Link>
           </div>
         </div>
